@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "health-scheduler-server",
+  "private_key_id": "1fa3e527711ba75d6d12397baa49ae6164ec5d29",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDoMU7VO0WF/EBu\nOuAYRLjE8KFyVzdbMI08tWM/Gf5hn0Nkh11rqNnKK2mp08cK//92UpkyLHG7mg7a\nGMU0OlkkbWL7Vn11lpTe5hJV4O7diYhvG5rQ2NldQPlGtfdiI45rU/LtpLv0pnWb\nAxpNtup23a1WEHJ24K0GifLR0ntAU2mbHG5D4Vsp/oRbIvNpTxCPSL8b7ryDlYyP\nIyqtPUGLaHAmJkehTbCRoU9zH36X6j4tSboo8mCJK1oq7X5P8JPhecbJxxAy1x/I\nDejHcgOjbFcNY/97ew4cyBMdJwX7dq1GN6wluK1jwv71zV4L4nCxEPy3t2kbG9yz\nOSNMAZhbAgMBAAECggEAUCvKSPTMtg0ZoBXjD24XECT30beMjQdwFOCacozCmSl5\nBwp4NraX8GbZ9oIBjWpD5jJx4/GVmY2BiEuaN8TXx6yfSyIbcpD6ORZeiVl/kG2u\n9pIk++yL7NeE2qX002VshOF5FRXWsgwRumKxX9kDDuTOt1M5epNsGsBh35HZ7aTX\nAeiy3gwZzZDCxGpX6sI79tU5+EdCq0pZGTO3LJYCOpA09N/BWBaa64iad6kbygZw\n2RHq/NyH91EwNc5RMgntTSWabuqBbNwdcGby17URhpbiJuyzg76rDMBIp0XyNx5p\n66RaEoA5Jyk+jWNzJsZF5wfw50ngd9yuNyVWB9w8LQKBgQD4oN8s+JhA/cHfVT7E\nSIBW1zLZ8/vSL6oDrN1sUzQv+GXyFzblyl0N34/pZFOvNWBUu48x7Q2qRW/gYig9\neQVyZwON3pFY6WRFYP+RHOJAE1erfH8Bv9O7DaUl4odWdOMdNO16ooDNHloKo+ii\nKM+6acL6ihLuNRv5adozdYMsrwKBgQDvE6+YF3F976MfBa+7hIrtxSw2bJPeTSSt\nw6TmZw4IFOn1p5HnmNHoq+4oe59N/qWBkoFqv6nOZybwbmDFC/y2lzoDRBBrElYK\ncCW9r8cn/O5wtKyOXHT3WY/eLo0u3yJp5uVz8ILtBbq04Ts2GcGSbegyR37d1cTm\nbY+jV3dyFQKBgFS4nNP6MgeTcMjlh2njOrhcxFs4pIrO6yQtd5Y+E/50qmiAOJi9\nCFB96dAh+9IsYhL9hqIAoTNwTdssF4I7Bvwg1jk1qlmdzilGEFAmg4JKFQm+dpjm\nAQQwdiIeuvdfBTUin/m1/iXnPc96Yv8+4Ooot+QfwKujNVEcHNqEJJrJAoGAYwy0\n4z5TNunhmyiv9fCj3n6iIqo5WRB88cDswMhRd+eyRqR2Po2B6fPRZ9RP2/B0gYpB\nNAjUQT9bUqFoVjrxKHTfBBte8f1WyFxORphc2qRf5TH1i8WicBgbEuIWfCTWDSos\nRiyPEcQd5nKqJW/mUtRWLv6QAThfq1gY+oNyaUECgYBD+1mhesmlMVWI/QDdyUET\nfJKd7uFTVLedxeWc8ZhfefWPXRZfO2N0nShtMvfgbmgwebhLEWoRvQmCRSfnZ5WJ\nXLEy+8J2gOpjiKIznCNUn8p9n/8J/8JWqcT0zHwsoKBkZAydM/3TEpNbnhHFfT2r\nKi6bnSUfG+vwbNG6/MLJ6g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-qc4fo@health-scheduler-server.iam.gserviceaccount.com",
+  "client_id": "103603851274694935949",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-qc4fo%40health-scheduler-server.iam.gserviceaccount.com"
+}
