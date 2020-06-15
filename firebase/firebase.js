@@ -1,6 +1,6 @@
 var admin = require("firebase-admin");
 
-var serviceAccount = require(process.env.GOOGLE_APPLICATION_CREDENTIALS);
+var serviceAccount = require("./health-scheduler-server-1fa3e527711b.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://health-scheduler-server.firebaseio.com",
