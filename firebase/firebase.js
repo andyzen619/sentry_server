@@ -16,37 +16,29 @@ const appointments = db.collection("appointments");
  * @param {*} user
  * @param {*} type
  */
-const addAppointment = (doctor, user, type) => {
+const addAppointment = (doctor, uid, type, date) => {
+
+  console.log(date)
   return appointments.add({
-    date: FieldValue.serverTimestamp(),
+    date: date,
     doctor: doctor,
     type: type,
-    user: user,
-    cancel: false,
+    user: uid,
+    status: '1'
   });
 };
 
-/**
- * Cancel appointment for user.
- * @param {*} appointmentId The document ID for appointment in db.
- */
-const cancelAppointment = (appointmentId) => {
-  appointments
-    .doc(appointmentId)
-    .update({ cancel: true })
-    .then(() => {
-      console.log("Appointment has been cancelled");
-    });
-};
 
 /**
  * Change details about appointment.
  * @param {*} field
  * @param {*} newValue
  */
-const changeAppointment = (field, newValue, appointmentId) => {
+const changeAppointment = (field, newValue, appointmentId) => {;
+  console.log(newValue)
   const updatedDetails = {};
   updatedDetails[field] = newValue;
+  console.log(updatedDetails);
   return appointments
     .doc(appointmentId)
     .update(updatedDetails)
@@ -60,4 +52,4 @@ const getAllAppointments = (uid) => {
   return appointments.where('user', '==', uid)
 }
 
-module.exports = { addAppointment, cancelAppointment, changeAppointment, getAllAppointments };
+module.exports = { addAppointment, changeAppointment, getAllAppointments };
